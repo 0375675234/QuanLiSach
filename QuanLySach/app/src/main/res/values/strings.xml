@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quản lý sách</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Login_Checkbox">Remember me ?</string>
+    <string name="notify_empty_user_name">Username không được để trống</string>
+    <string name="notify_empty_pass">Passwword không được để trống</string>
+    <string name="notify_min_pass">Password phải trên 6 kí tự</string>
+    <string name="notify_wrongusernamepass">Tài khoản mật khẩu không chính xác</string>
+    <string name="manguoidung">Mã Người dùng</string>
+    <string name="notify_emty_email">Không được để trống</string>
+    <string name="notify_emty_passWord">Không được để trống</string>
+    <string name="notify_min_passWord">Pass trên 6 lý tự</string>
+    <string name="notify_length_pass">Mật khẩu trên 6 kí tự</string>
+    <string name="notify_empty_user">Không được để trống</string>
+    <string name="notify_wrong_username_password">Không tồn người dùng</string>
+</resources>

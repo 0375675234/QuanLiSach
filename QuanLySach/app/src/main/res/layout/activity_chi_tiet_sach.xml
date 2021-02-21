@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Chi Tiết Sách"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edMaSach_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã Sách" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+
+            android:id="@+id/spTheLoai_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edTenSach_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Sách" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edTacGia_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tác Giả" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edNXB_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhà Xuất Bản" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edGia_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edSoluong_ThemSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số Lượng" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem_ThemSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:onClick="UpdateSach"
+            android:text="Update"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnHuy_ThemSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:onClick="huyupdatesach"
+            android:text="Hủy"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>

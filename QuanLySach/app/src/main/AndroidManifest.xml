@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.bai2lab1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.dell.qls.ui.ManHinhChaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dell.qls.ui.LoginActivity" />
+        <activity android:name="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.NguoidungActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.ThemNguoiDungActivity"
+            android:parentActivityName="com.example.dell.qls.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.DoiMatKhauActivity"
+            android:parentActivityName="com.example.dell.qls.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.TheLoaiActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.ThemTheLoaiActivity"
+            android:parentActivityName="com.example.dell.qls.ui.TheLoaiActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.SachActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.ThemSachActivity"
+            android:parentActivityName="com.example.dell.qls.ui.SachActivity" />
+
+        <activity
+            android:name="com.example.dell.qls.ui.ThemHoaDonActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HoaDonActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.ThongKeActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.SachBanChayActivity"
+            android:parentActivityName="com.example.dell.qls.ui.HomeActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.ChiTietNguoiDungActivity"
+            android:parentActivityName="com.example.dell.qls.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.dell.qls.ui.HoaDonActivity"
+
+            android:label="Quan Li Hoa Don" />
+        <activity
+            android:name="com.example.dell.qls.ui.ChiTietTheLoaiActivity"
+            android:parentActivityName="com.example.dell.qls.ui.TheLoaiActivity" />
+        <activity android:name="com.example.dell.qls.ui.ChiTietSachActivity">
+
+        </activity>
+    </application>
+
+</manifest>
